@@ -1,8 +1,9 @@
-/******************************************/
-/*****          Card Layouts          *****/
-/******************************************/
-
-.cardBasic{
+/**************************************************/
+/*****          Dynamic Card Layouts          *****/
+/**************************************************/
+/*****              Version 0.5               *****/
+/**************************************************/
+.card{
     background-color: white;
     margin: 15px 0px 20px;
     padding: 10px;
@@ -10,6 +11,33 @@
     box-shadow: 0px 2px 3px rgb(153, 153, 153);
     }
 
+.cardLeft{
+    background-color: white;
+    margin: 15px 0px 20px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    max-width: 450px;
+    box-shadow: 0px 2px 3px rgb(153, 153, 153);
+    }
+
+.cardRight{
+    background-color: white;
+    margin: 15px 0px 20px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    float: right;
+    max-width: 450px;
+    box-shadow: 0px 2px 3px rgb(153, 153, 153);
+    }
+
+/************************************************/
+/*****          Fixed Card Layouts          *****/
+/************************************************/
+/*****            In Development            *****/
+/************************************************/
 .cardLeftSmall{
     background-color: white;
     margin: 15px 0px 20px;
@@ -87,10 +115,11 @@
     }
 
 /********************************************/
-/*****          Header Layouts          *****/
+/*****         Dynamic Headers          *****/
 /********************************************/
-
-.cardBasicHeaderLeft{
+/*****           Version 0.5            *****/
+/********************************************/
+.cardHeaderLeft{
     background-color: rgb(37, 77, 37);
     color: rgb(255, 255, 255);
     text-align: center;
@@ -99,7 +128,7 @@
     font-weight: normal;
     }
 
-.cardBasicHeaderMiddle{
+.cardHeaderCenter{
     background-color: rgb(37, 77, 37);
     color: rgb(255, 255, 255);
     text-align: center;
@@ -108,7 +137,7 @@
     font-weight: normal;
     }
 
-.cardBasicHeaderRight{
+.cardHeaderRight{
     background-color: rgb(37, 77, 37);
     color: rgb(255, 255, 255);
     text-align: center;
@@ -117,6 +146,11 @@
     font-weight: normal;
     }
 
+/******************************************/
+/*****         Fixed Headers          *****/
+/******************************************/
+/*****         In Development         *****/
+/******************************************/
 .cardHalfHeaderLeft{
     background-color: rgb(37, 77, 37);
     color: rgb(255, 255, 255);
@@ -127,8 +161,7 @@
     }
 
 
-.cardHalfHeaderMiddle{
-/*************** Not Yet Implementing ***************/
+.cardHalfHeaderCenter{
     background-color: rgb(37, 77, 37);
     color: rgb(255, 255, 255);
     text-align: center;
@@ -146,11 +179,12 @@
     font-weight: normal;
     }
 
-/********************************************/
-/*****          Footer Layouts          *****/
-/********************************************/
-
-.cardBasicFooterLeft{
+/*******************************************/
+/*****         Dynamic Footers         *****/
+/*******************************************/
+/*****           Version 0.5           *****/
+/*******************************************/
+.cardFooterLeft{
     font-size: 14pt;
     background-color: rgb(37, 77, 37);
     color: rgb(255, 255, 255);
@@ -159,17 +193,16 @@
     margin: 10px 0px -10px -10px;
     }
 
-.cardBasicFooterMiddle{
-/*************** Not Yet Implementing ***************/
+.cardFooterCenter{
     font-size: 14pt;
     background-color: rgb(37, 77, 37);
     color: rgb(255, 255, 255);
     text-align: center;
     width: 200px;
     margin: 10px 0px -10px 39.5%;    
-}
+    }
 
-.cardBasicFooterRight{
+.cardFooterRight{
     font-size: 14pt;
     background-color: rgb(37, 77, 37);
     color: rgb(255, 255, 255);
@@ -178,8 +211,12 @@
     margin: 10px 0px -10px 79.6%;
     }
 
+/*****************************************/
+/*****         Fixed Footers         *****/
+/*****************************************/
+/*****         In Development        *****/
+/*****************************************/
 .cardHalfFooterLeft{
-/*************** Not Yet Implementing ***************/
     font-size: 14pt;
     background-color: rgb(37, 77, 37);
     color: rgb(255, 255, 255);
@@ -188,8 +225,7 @@
     margin: 0px 0px 0px -10px;
     }
 
-.cardHalfFooterMiddle{
-/*************** Not Yet Implementing ***************/
+.cardHalfFooterCenter{
     font-size: 14pt;
     background-color: rgb(37, 77, 37);
     color: rgb(255, 255, 255);
@@ -199,17 +235,6 @@
     }
 
 .cardHalfFooterRight{
-/*************** Not Yet Implementing ***************/        
-    font-size: 14pt;
-    background-color: rgb(37, 77, 37);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    width: 200px;
-    margin: 0px 0px -10px 730px;
-    }
-
-.BasicFooterLeft{
-/*************** Not Yet Implementing ***************/    
     font-size: 14pt;
     background-color: rgb(37, 77, 37);
     color: rgb(255, 255, 255);
