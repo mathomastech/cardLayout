@@ -144,13 +144,12 @@
 
 
 .cardBasicFooterLeft{
-/*************** Not Yet Implementing ***************/
     font-size: 14pt;
     background-color: rgb(37, 77, 37);
     color: rgb(255, 255, 255);
     text-align: center;
     width: 200px;
-    margin: 0px 0px -10px 730px;
+    margin: 10px 0px -10px -10px;
     }
 
 .cardBasicFooterMiddle{
@@ -169,7 +168,7 @@
     color: rgb(255, 255, 255);
     text-align: center;
     width: 200px;
-    margin: 0px 0px -10px 730px;
+    margin: 10px 0px -10px 79.6%;
     }
 
 .cardHalfFooterLeft{
