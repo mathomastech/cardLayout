@@ -8,8 +8,8 @@
     </head>
     <body>
 
-<section class="cardBasic">
-        <h3 class="cardBasicHeaderMiddle">Card Anatomy</h3>
+<section class="card">
+        <h3 class="cardHeaderCenter">Card Anatomy</h3>
         <p class="cardContent"> The card design has 4 main parts. 
         <ul>
             <li><strong>card:</strong> basic, left, right, small, medium, large</li>
@@ -17,29 +17,40 @@
             <li><strong>content:</strong></li>
             <li><strong>footer:</strong> left, right, center</li> 
         </ul>        
-        Each card should use only what it needs, and nothing extra. The following cards will show you the different options you can use to build your cards. Header and footer placements can be mixed and match. For instance, you can combine a left header and a right footer, or a middle header and a left footer. Use whatever combinations you feel are best for your content. Be away that using multiple headers or multiple footers on a single card does not work.
+        Each card should use only what it needs, and nothing extra. The following cards will show you the different options you can use to build your cards. Header and footer placements can be mixed and match. For instance, you can combine a left header and a right footer, or a center header and a left footer. Use whatever combinations you feel are best for your content. Be away that using multiple headers or multiple footers on a single card does not work.
 </p>
 </section>
 
-<section class="cardBasic">
-    <h3 class="cardBasicHeaderLeft"> Left Header</h3>
-	<p class="cardContent"> This is an example of the basic card. This card resizes itself vertically to match the amount of content contained within. The width of the card will span the length of the screen. You can use this by implementing the "cardBasic" class. This card is also using the left oriented header which is implemented by using the "cardHeaderLeft" class.</p>
-    <p class="cardBasicFooterLeft">Left Footer</p>
+<section class="card">
+    <h3 class="cardHeaderLeft"> Left Header</h3>
+	<p class="cardContent"> This is an example of the basic card. This card resizes itself vertically to match the amount of content contained within. The width of the card will span the length of the screen. You can use this by implementing the "card" class. This card is also using the left oriented header which is implemented by using the "cardHeaderLeft" class.</p>
+    <p class="cardFooterLeft">Left Footer</p>
 </section>
 
-<section class="cardBasic">
-    <h3 class="cardBasicHeaderMiddle"> Center Header</h3>    
-    <p class="cardContent"> This is an example of the basic card. This card resizes
-    <p class="cardBasicFooterMiddle">Center Footer</p>
+<section class="card">
+    <h3 class="cardHeaderCenter"> Center Header</h3>    
+    <p class="cardContent"> This is an example of a centered header and footer.</p>
+    <p class="cardFooterCenter">Center Footer</p>
 </section>
 
-<section class="cardBasic">
-    <h3 class="cardBasicHeaderRight"> Right Header</h3>
-    <p class="cardContent"> This is an example of the basic card. This card resizes
-    <p class="cardBasicFooterRight">Right Footer</p>
+<section class="card">
+    <h3 class="cardHeaderRight"> Right Header</h3>
+    <p class="cardContent"> This is an example of a right header and footer.</p>
+    <p class="cardFooterRight">Right Footer</p>
 </section>
 
 
+<section class="cardLeft">
+  <!--  <h3 class="cardHeaderRight"> Right Header</h3> -->
+    <p class="cardContent"> This is an example of a card that emcompasses only half a screen, and who's height changes based on the quantity of content inside the card. This card is longer than the one on the right. Because of the different heights between this card and the one to the right, you may need to put break statements below this set in order to reset the alignment of cards below.</p>
+</section>
+
+
+<section class="cardRight">
+  <!--  <h3 class="cardHeaderRight"> Right Header</h3> -->
+    <p class="cardContent"> This card is much shorter than it's left neighbor. To make them the same size despite quantity of content, choose a fixed size card instead.</p>
+</section>
+<section><br></br><br></br><br></br><br></br><br></br><section>
 <section class="cardLeftSmall">
 	<h3 class="cardHalfHeaderLeft"> Small left card </h3>
 	<p class="cardContent"> This is an example of a card that encompasses a small left portion of the screen. The card is best used if you have only a small amount of information to display and you would like to display additional content beside this. Use this by implementing the "cardLeftSmall" class.</p>
