@@ -1,3 +1,7 @@
+/******************************************/
+/*****          Card Layouts          *****/
+/******************************************/
+
 .cardBasic{
     background-color: white;
     margin: 15px 0px 20px;
@@ -16,7 +20,7 @@
     max-width: 450px;
     box-shadow: 0px 2px 3px rgb(153, 153, 153);
     height: 100px;
-}
+    }
 
 .cardRightSmall{
     background-color: white;
@@ -28,7 +32,7 @@
     max-width: 450px;
     box-shadow: 0px 2px 3px rgb(153, 153, 153);
     height: 100px;
-}
+    }
 
 .cardLeftMedium{
     background-color: white;
@@ -40,7 +44,7 @@
     max-width: 450px;
     box-shadow: 0px 2px 3px rgb(153, 153, 153);
     height: 170px;
-}
+    }
 
 .cardRightMedium{
     background-color: white;
@@ -52,8 +56,8 @@
     max-width: 450px;
     box-shadow: 0px 2px 3px rgb(153, 153, 153);
     height: 170px;
-}
-
+    }
+   
 .cardLeftLarge{
     background-color: white;
     margin: 15px 0px 20px;
@@ -65,7 +69,6 @@
     box-shadow: 0px 2px 3px rgb(153, 153, 153);
     height: 260px;
     }
-
 
 .cardRightLarge{
     background-color: white;
@@ -79,10 +82,13 @@
     height: 260px;
     }
 
-
 .cardContent{
 	margin: 0px;
     }
+
+/********************************************/
+/*****          Header Layouts          *****/
+/********************************************/
 
 .cardBasicHeaderLeft{
     background-color: rgb(37, 77, 37);
@@ -93,14 +99,12 @@
     font-weight: normal;
     }
 
-
 .cardBasicHeaderMiddle{
-/*************** Not Yet Implementing ***************/
     background-color: rgb(37, 77, 37);
     color: rgb(255, 255, 255);
     text-align: center;
     width: 200px;
-    margin: -10px 0px 10px -10px;
+    margin: -10px 0px 10px 39.5%;
     font-weight: normal;
     }
 
@@ -142,6 +146,9 @@
     font-weight: normal;
     }
 
+/********************************************/
+/*****          Footer Layouts          *****/
+/********************************************/
 
 .cardBasicFooterLeft{
     font-size: 14pt;
@@ -178,8 +185,9 @@
     color: rgb(255, 255, 255);
     text-align: center;
     width: 200px;
-    margin: 0px 0px -10px 730px;
+    margin: 0px 0px 0px -10px;
     }
+
 .cardHalfFooterMiddle{
 /*************** Not Yet Implementing ***************/
     font-size: 14pt;
@@ -189,6 +197,7 @@
     width: 200px;
     margin: 0px 0px -10px 730px;
     }
+
 .cardHalfFooterRight{
 /*************** Not Yet Implementing ***************/        
     font-size: 14pt;
@@ -198,6 +207,7 @@
     width: 200px;
     margin: 0px 0px -10px 730px;
     }
+
 .BasicFooterLeft{
 /*************** Not Yet Implementing ***************/    
     font-size: 14pt;
