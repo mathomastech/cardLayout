@@ -1,0 +1,210 @@
+.cardBasic{
+    background-color: white;
+    margin: 15px 0px 20px;
+    padding: 10px;
+    overflow: auto;
+    box-shadow: 0px 2px 3px rgb(153, 153, 153);
+    }
+
+.cardLeftSmall{
+    background-color: white;
+    margin: 15px 0px 20px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    max-width: 450px;
+    box-shadow: 0px 2px 3px rgb(153, 153, 153);
+    height: 100px;
+}
+
+.cardRightSmall{
+    background-color: white;
+    margin: 15px 0px 20px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    float: right;
+    max-width: 450px;
+    box-shadow: 0px 2px 3px rgb(153, 153, 153);
+    height: 100px;
+}
+
+.cardLeftMedium{
+    background-color: white;
+    margin: 15px 0px 20px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    max-width: 450px;
+    box-shadow: 0px 2px 3px rgb(153, 153, 153);
+    height: 170px;
+}
+
+.cardRightMedium{
+    background-color: white;
+    margin: 15px 0px 20px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    float: right;
+    max-width: 450px;
+    box-shadow: 0px 2px 3px rgb(153, 153, 153);
+    height: 170px;
+}
+
+.cardLeftLarge{
+    background-color: white;
+    margin: 15px 0px 20px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    max-width: 450px;
+    box-shadow: 0px 2px 3px rgb(153, 153, 153);
+    height: 260px;
+    }
+
+
+.cardRightLarge{
+    background-color: white;
+    margin: 15px 0px 20px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    float: right;
+    max-width: 450px;
+    box-shadow: 0px 2px 3px rgb(153, 153, 153);
+    height: 260px;
+    }
+
+
+.cardContent{
+	margin: 0px;
+    }
+
+.cardBasicHeaderLeft{
+    background-color: rgb(37, 77, 37);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin: -10px 0px 10px -10px;
+    font-weight: normal;
+    }
+
+
+.cardBasicHeaderMiddle{
+/*************** Not Yet Implementing ***************/
+    background-color: rgb(37, 77, 37);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin: -10px 0px 10px -10px;
+    font-weight: normal;
+    }
+
+.cardBasicHeaderRight{
+    background-color: rgb(37, 77, 37);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin: -10px 0px 10px 79.6%;
+    font-weight: normal;
+    }
+
+.cardHalfHeaderLeft{
+    background-color: rgb(37, 77, 37);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin: -10px 0px 10px -10px;
+    font-weight: normal;
+    }
+
+
+.cardHalfHeaderMiddle{
+/*************** Not Yet Implementing ***************/
+    background-color: rgb(37, 77, 37);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin: -10px 0px 10px -10px;
+    font-weight: normal;
+    }
+
+.cardHalfHeaderRight{ 
+    background-color: rgb(37, 77, 37);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin: -10px 0px 10px 58%;
+    font-weight: normal;
+    }
+
+
+.cardBasicFooterLeft{
+/*************** Not Yet Implementing ***************/
+    font-size: 14pt;
+    background-color: rgb(37, 77, 37);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin: 0px 0px -10px 730px;
+    }
+
+.cardBasicFooterMiddle{
+/*************** Not Yet Implementing ***************/
+    font-size: 14pt;
+    background-color: rgb(37, 77, 37);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin: 0px 0px -10px 730px;
+    }
+
+.cardBasicFooterRight{
+    font-size: 14pt;
+    background-color: rgb(37, 77, 37);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin: 0px 0px -10px 730px;
+    }
+
+.cardHalfFooterLeft{
+/*************** Not Yet Implementing ***************/
+    font-size: 14pt;
+    background-color: rgb(37, 77, 37);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin: 0px 0px -10px 730px;
+    }
+.cardHalfFooterMiddle{
+/*************** Not Yet Implementing ***************/
+    font-size: 14pt;
+    background-color: rgb(37, 77, 37);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin: 0px 0px -10px 730px;
+    }
+.cardHalfFooterRight{
+/*************** Not Yet Implementing ***************/        
+    font-size: 14pt;
+    background-color: rgb(37, 77, 37);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin: 0px 0px -10px 730px;
+    }
+.BasicFooterLeft{
+/*************** Not Yet Implementing ***************/    
+    font-size: 14pt;
+    background-color: rgb(37, 77, 37);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin: 0px 0px -10px 730px;
+    }
