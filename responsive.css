@@ -2,7 +2,7 @@
 /*****    Positioning Layouts    *****/
 /*************************************/
 
-@media (max-width: 600px) {
+@media (max-width: 950px) {
     .card.left{
         position: none;
         float: none;
