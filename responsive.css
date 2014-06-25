@@ -46,13 +46,14 @@
 
 @media (max-width: 950px) {
     .header.center{ margin: -10px 0px 10px -10px; }
-    .header.right{ margin: -10px 0px 10px 79.6%; }
+    .header.right{ margin: -10px 0px 10px -10px; }
 }
 
 /* Half Width Headers */
-.header.left.half{ margin: -10px 0px 10px -10px; }
-.header.center.half{ margin: -10px 0px 10px 27%; }
-.header.right.half{ margin: -10px 0px 10px 58%; }
+@media (max-width: 950px) {
+    .header.center.half{ margin: -10px 0px 10px -10px; }
+    .header.right.half{ margin: -10px 0px 10px -10px; }
+}
 
 /*************************/
 /*****    Footers    *****/
@@ -66,20 +67,19 @@
     }
 
 /* Full Width Footers */
-.footer.left{ margin: 10px 0px -10px -10px; }
-.footer.center{ margin: 10px 0px -10px 39.5%; }
-.footer.right{ margin: 10px 0px -10px 79.6%; }
-
+@media (max-width: 950px) {
+    .footer.left{ margin: 10px 0px -10px -10px; }
+    .footer.center{ margin: 10px 0px -10px -10px; }
+    .footer.right{ margin: 10px 0px -10px -10px; }
+}
 
 /* Half Width Footers */
 /* NOT YET SUPPORTED  */
 
 
-.footer.left.half{ margin: 0px 0px 0px -10px; }
-
-.footer.center.half{ margin: 0px 0px -10px 27%; }
-
-.footer.right.half{ margin: 0px 0px -10px 57.8%; }
+@media (max-width: 950px) {
+    .footer.center.half{ margin: 0px 0px -10px -10px; }
+    .footer.right.half{ margin: 0px 0px -10px -10px; }
 
 
 /*****************************************/
