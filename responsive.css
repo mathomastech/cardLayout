@@ -39,9 +39,11 @@
 }
 
 /* Full Width Headers */
-.header.full{ 
-    width: 103%;
-    margin: -10px 0px 10px -10px;	
+@media (max-width: 950px) {
+    .header.full{ 
+        width: 110%;
+        margin: -10px 0px 10px -10px;	
+    }
 }
 
 @media (max-width: 950px) {
