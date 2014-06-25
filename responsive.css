@@ -32,23 +32,3 @@
     .footer.center.half{ margin: 0px 0px -10px -10px; }
     .footer.right.half{ margin: 0px 0px -10px -10px; }
 }
-
-
-
-/*******************************/
-/*****    Fixed Heights    *****/
-/*******************************/
-.small{ height: 100px; }
-
-.medium{ height: 170px; }
-
-.large{ height: 260px; }
-
-
-.header{
-    background-color: rgb(37, 77, 37);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    width: 200px;
-    font-weight: normal;
-}
