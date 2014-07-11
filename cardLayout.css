@@ -118,3 +118,5 @@
 .green{ background-color: rgb(0,180,0); }
 .lightGreen{ background-color: rgb(130,180,0); }
 .darkGreen{ background-color: rgb(0,130,0); }
+
+.clear{clear:both;}
