@@ -1,4 +1,4 @@
-@media (max-width: 950px){
+@media all and (max-width: 975px){
 
     .card.left{
         position: none;
