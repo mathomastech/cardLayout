@@ -19,19 +19,6 @@
         margin: -10px 0px 10px -10px;
     }
     
-    /* Headers */
-    .header.center{ margin: -10px auto 10px auto; }
-    .header.right{ margin: -10px 0px 10px  67%; }
-    
-    .header.center.half{ margin: -10px auto 10px auto; }
-    .header.right.half{ margin: -10px 0px 10px 67%; }
-    
-    /* Footers */
-    .footer.center{ margin: 10px auto -10px auto; }
-    .footer.right{ margin: 10px 0px -10px 67%; }
-    
-    .footer.center.half{ margin: 0px auto -10px auto; }
-    .footer.right.half{ margin: 0px 0px -10px 67%; }
 }
 
 /*   Phone   */
@@ -54,19 +41,4 @@
         width: 110%;
         margin: -10px 0px 10px -10px;
     }
-    
-    /* Headers */
-    .header.center{ margin: -10px auto 10px auto; }
-    .header.right{ margin: -10px -10px 10px  auto; }
-    
-    .header.center.half{ margin: -10px auto 10px auto; }
-    .header.right.half{ margin: -10px -10px 10px auto; }
-    
-    /* Footers */
-    .footer.center{ margin: 10px auto -10px auto; }
-    .footer.right{ margin: 10px -10px -10px auto; }
-    
-    .footer.center.half{ margin: 0px auto -10px auto; }
-    .footer.right.half{ margin: 0px -10px -10px auto; }
 }
-
