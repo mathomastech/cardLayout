@@ -3,7 +3,7 @@ cardLayout
 
 Template
 
-* Version - [Date Updated]
+* <strong>Version - [Date Updated]</strong>
 * Status - [In Development/Testing/Complete]
 * Description - [Describe items to be implemented at the conclusion of this version]
 
