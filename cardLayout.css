@@ -33,13 +33,13 @@
 .card.left{
     position: relative;
     float: left;
-    max-width: 450px;
+    max-width: 47%;
     }
 
 .card.right{
     position: relative;
     float: right;
-    max-width: 450px;
+    max-width: 47%;
     }
 
 
