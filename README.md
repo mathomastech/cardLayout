@@ -21,9 +21,9 @@ Description - Full and half cards are now responsive. Testing on Nexus 5, Nexus 
 
 </br>
 
-Version 1.1 - [6/23/2014]
-Status: Complete
-Description: Beginning work on adding responsive design to the card layout.
+<p>Version 1.1 - [6/23/2014]</p>
+<p>Status: Complete</p>
+<p>Description: Beginning work on adding responsive design to the card layout.</p>
 
 
 -----
