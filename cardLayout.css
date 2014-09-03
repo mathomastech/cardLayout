@@ -123,6 +123,16 @@
     .card.right{
         max-width: 49.5%;
     }
+    
+    .card.small{
+        height: 120px;
+    }
+    .card.medium{
+        height: 220px;
+    }
+    .card.large{
+        height: 310px;
+    }
 }
 
 /*  Nexus 7 2012  */
@@ -142,6 +152,16 @@
         margin: -10px 0px 10px -10px;
     }
     
+    .card.small{
+        height: 160px;
+    }
+    .card.medium{
+        height: 290px;
+    }
+    .card.large{
+        height: 440px;
+    }
+    
 }
 
 /* 1152 * 864 at half screen */
@@ -153,6 +173,15 @@
     .card.right{
         max-width: 49.5%;
     }
+    .card.small{
+        height: 180px;
+    }
+    .card.medium{
+        height: 300px;
+    }
+    .card.large{
+        height: 500px;
+    }
 }
 
 /* 1024 * 768 at half screen */
@@ -162,6 +191,7 @@
         float: none;
         max-width: none;
         box-sizing: content-box;
+        height:100%;
     }
 
     .card.right{
@@ -169,6 +199,7 @@
         float: none;
         max-width: none;
         box-sizing: content-box;
+        height:100%;
     }
 }
 
